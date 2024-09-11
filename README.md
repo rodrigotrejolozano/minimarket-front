@@ -79,6 +79,11 @@ instalar el proyecto localmente es muy sencillo. Siga los pasos a continuación:
     URL_DOMAIN=http://localhost:3000
    ```
 
+5. Inicia el servidor en modo desarrollo:
+   ```bash
+   npm run dev
+   ```
+   
 5. **Accede a la aplicación en:
    ```
    http://localhost:3000
