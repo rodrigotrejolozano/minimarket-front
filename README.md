@@ -46,13 +46,13 @@ La estructura clave del proyecto es la siguiente:
 - `/pages` : Next.js pages para renderizar las vistas.
   - `index.tsx` (index.tsx para la página de inicio)
 
-## Requirements
+## Requisitos
 
 - **OS**: Windows (recommended)
 - **Node.js**: v18.17.0 (minimo)
 - **npm**: v9.6.7 (minimo)
 
-## Installation
+## Instalación
 
 instalar el proyecto localmente es muy sencillo. Siga los pasos a continuación:
 
@@ -66,25 +66,24 @@ instalar el proyecto localmente es muy sencillo. Siga los pasos a continuación:
    ```bash
    cd minimarket-front
    ```
+3. **Instala las dependencias**:
 
-3. **Instala las dependencias:
    ```bash
    npm install
    ```
-
-4. **Crea un archivo `.env.local` en la raíz del proyecto, donde deberia tener la siguiente estructura:
+4. **Crea un archivo `.env.local` en la raíz del proyecto, donde deberia tener la siguiente estructura:**
    ```bash
     API_URL=http://localhost:3001
     NEXT_PUBLIC_API_DOMAIN=http://localhost:3000
     URL_DOMAIN=http://localhost:3000
    ```
 
-5. Inicia el servidor en modo desarrollo:
+5. **Inicia el servidor en modo desarrollo:**
    ```bash
    npm run dev
    ```
    
-5. **Accede a la aplicación en:
+6. **Accede a la aplicación en:**
    ```
    http://localhost:3000
    ```
@@ -92,17 +91,17 @@ instalar el proyecto localmente es muy sencillo. Siga los pasos a continuación:
 
 ## Uso en Producción
 
-1. Compila el proyecto:
+1. **Compila el proyecto:**
    ```bash
    npm run build
    ```
 
-2. Inicia el servidor en modo producción:
+2. **Inicia el servidor en modo producción:**
    ```bash
    npm run start
    ```
 
-3. Accede a la aplicación en:
+3. **Accede a la aplicación en:**
    ```
    http://localhost:3000
     ```
